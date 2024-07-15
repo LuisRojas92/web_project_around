@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alrededor de los Estados Unidos, mostrando los estados más importantes para explorar"
+    />
+    <meta name="keywords" content="HTML, CSS, media queries, Javascript" />
+    <meta name="author" content="Luis Rojas" />
+    <title>Alrededor de los EE.UU.</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="popup">
+        <div class="popup__container">
+          <form class="popup__form form">
+            <button class="popup__button-cross" type="button">
+              <img src="./images/Close.png" alt="icono de equis" />
+            </button>
+            <fieldset class="popup__form-fieldset">
+              <h3 class="popup__title">Nuevo lugar</h3>
+              <input
+                class="popup__form-input popup__form-input-name"
+                type="text"
+                placeholder="Nombre"
+                required
+                id="name"
+              />
+              <input
+                class="popup__form-input popup__form-input-about"
+                type="text"
+                placeholder="Acerca de mi"
+                required
+                id="about"
+              />
+              <button class="popup__form-button" type="submit">Guardar</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <header class="header">
+        <img
+          class="header__logo"
+          src="./images/logo.svg"
+          alt="Logo around the US"
+        />
+      </header>
+      <hr id="line" />
+      <main class="content">
+        <section class="profile">
+          <div class="profile__column">
+            <img
+              class="profile__image"
+              src="./images/Avatar.png"
+              alt="Avatar profile image"
+            />
+            <div class="profile__info">
+              <h1 class="profile__title">Jacques Cousteau</h1>
+              <button class="profile__edit-button" type="button">
+                <img
+                  src="./images/edit.png"
+                  alt="Icono lapiz"
+                  class="profile__edit-button-image"
+                />
+              </button>
+              <h2 class="profile__subtitle">Explorador</h2>
+            </div>
+          </div>
+          <button class="profile__add-button" type="button">
+            <img
+              src="./images/add.png"
+              alt="Icono para editar"
+              class="profile__add-button-image"
+            />
+          </button>
+        </section>
+        <section class="cards">
+          <ul class="cards__content">
+            <li class="cards__item">
+              <img
+                src="./images/image1.jpg"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Valle de Yosemite</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+            <li class="cards__item">
+              <img
+                src="./images/image2.png"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Lago Louise</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+            <li class="cards__item">
+              <img
+                src="./images/image3.png"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Montañas Calvas</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+            <li class="cards__item">
+              <img
+                src="./images/imge4.png"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Latemar</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+            <li class="cards__item">
+              <img
+                src="./images/image5.png"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Vanois National...</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+            <li class="cards__item">
+              <img
+                src="./images/image6.png"
+                alt="imágen del valle de Yosemite"
+                class="cards__image"
+              />
+              <button class="cards__trash-button">
+                <img
+                  src="./images/trash.svg"
+                  alt="Icono bote basura"
+                  class="cards__trash-button-image"
+                />
+              </button>
+              <div class="cards__image-info">
+                <p class="cards__image-text">Lago di Braies</p>
+                <button class="cards__hearth-button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2024 Luis Rojas</p>
+      </footer>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
