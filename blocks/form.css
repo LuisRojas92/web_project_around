@@ -1,5 +1,4 @@
-.popup__button-cross,
-.popup__button-cross-image {
+.popup__button-cross {
   position: absolute;
   top: -33px;
   right: -30px;
@@ -50,13 +49,14 @@
   box-sizing: border-box;
 }
 
-.popup__form-button {
+.popup__form-button,
+.popup__form-button-create {
   width: 358px;
   height: 50px;
   background-color: black;
 
   font-weight: 500;
-  font-family: "Inter" Arial, Helvetica, sans-serif;
+
   color: white;
   font-size: 18px;
   margin: 5% auto;
@@ -90,8 +90,7 @@
     padding-left: 3%;
     margin-top: 10%;
   }
-  .popup__button-cross,
-  .popup__button-cross-image {
+  .popup__button-cross {
     width: 30px;
     height: 30px;
     position: absolute;
